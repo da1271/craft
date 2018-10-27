@@ -1,0 +1,320 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', '-g', 'node' ]
+2 info using npm@4.1.2
+3 info using node@v7.7.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData node
+8 silly fetchNamedPackageData node
+9 silly mapToRegistry name node
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'node',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'node',
+12 silly mapToRegistry   name: 'node',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/node
+14 verbose get https://registry.npmjs.org/node not expired, no request
+15 silly install normalizeTree
+16 silly loadCurrentTree Finishing
+17 silly loadIdealTree Starting
+18 silly install loadIdealTree
+19 silly cloneCurrentTree Starting
+20 silly install cloneCurrentTreeToIdealTree
+21 silly cloneCurrentTree Finishing
+22 silly loadShrinkwrap Starting
+23 silly install loadShrinkwrap
+24 silly loadShrinkwrap Finishing
+25 silly loadAllDepsIntoIdealTree Starting
+26 silly install loadAllDepsIntoIdealTree
+27 silly resolveWithNewModule node@11.0.0 checking installable status
+28 silly cache add args [ 'node', null ]
+29 verbose cache add spec node
+30 silly cache add parsed spec Result {
+30 silly cache add   raw: 'node',
+30 silly cache add   scope: null,
+30 silly cache add   escapedName: 'node',
+30 silly cache add   name: 'node',
+30 silly cache add   rawSpec: '',
+30 silly cache add   spec: 'latest',
+30 silly cache add   type: 'tag' }
+31 silly addNamed node@latest
+32 verbose addNamed "latest" is being treated as a dist-tag for node
+33 info addNameTag [ 'node', 'latest' ]
+34 silly mapToRegistry name node
+35 silly mapToRegistry using default registry
+36 silly mapToRegistry registry https://registry.npmjs.org/
+37 silly mapToRegistry data Result {
+37 silly mapToRegistry   raw: 'node',
+37 silly mapToRegistry   scope: null,
+37 silly mapToRegistry   escapedName: 'node',
+37 silly mapToRegistry   name: 'node',
+37 silly mapToRegistry   rawSpec: '',
+37 silly mapToRegistry   spec: 'latest',
+37 silly mapToRegistry   type: 'tag' }
+38 silly mapToRegistry uri https://registry.npmjs.org/node
+39 verbose addNameTag registry:https://registry.npmjs.org/node not in flight; fetching
+40 verbose get https://registry.npmjs.org/node not expired, no request
+41 silly addNameTag next cb for node with tag latest
+42 silly addNamed node@11.0.0
+43 verbose addNamed "11.0.0" is a plain semver version for node
+44 silly cache afterAdd node@11.0.0
+45 verbose afterAdd /home/doyle/.npm/node/11.0.0/package/package.json not in flight; writing
+46 verbose correctMkdir /home/doyle/.npm correctMkdir not in flight; initializing
+47 verbose afterAdd /home/doyle/.npm/node/11.0.0/package/package.json written
+48 silly fetchNamedPackageData node-bin-setup
+49 silly mapToRegistry name node-bin-setup
+50 silly mapToRegistry using default registry
+51 silly mapToRegistry registry https://registry.npmjs.org/
+52 silly mapToRegistry data Result {
+52 silly mapToRegistry   raw: 'node-bin-setup',
+52 silly mapToRegistry   scope: null,
+52 silly mapToRegistry   escapedName: 'node-bin-setup',
+52 silly mapToRegistry   name: 'node-bin-setup',
+52 silly mapToRegistry   rawSpec: '',
+52 silly mapToRegistry   spec: 'latest',
+52 silly mapToRegistry   type: 'tag' }
+53 silly mapToRegistry uri https://registry.npmjs.org/node-bin-setup
+54 verbose get https://registry.npmjs.org/node-bin-setup not expired, no request
+55 silly pickManifestFromRegistryMetadata spec >=1.0.0 <2.0.0 tag latest versions [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4', '1.0.6' ]
+56 silly resolveWithNewModule node-bin-setup@1.0.6 checking installable status
+57 silly cache add args [ 'node-bin-setup@^1.0.0', null ]
+58 verbose cache add spec node-bin-setup@^1.0.0
+59 silly cache add parsed spec Result {
+59 silly cache add   raw: 'node-bin-setup@^1.0.0',
+59 silly cache add   scope: null,
+59 silly cache add   escapedName: 'node-bin-setup',
+59 silly cache add   name: 'node-bin-setup',
+59 silly cache add   rawSpec: '^1.0.0',
+59 silly cache add   spec: '>=1.0.0 <2.0.0',
+59 silly cache add   type: 'range' }
+60 silly addNamed node-bin-setup@>=1.0.0 <2.0.0
+61 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for node-bin-setup
+62 silly addNameRange { name: 'node-bin-setup',
+62 silly addNameRange   range: '>=1.0.0 <2.0.0',
+62 silly addNameRange   hasData: false }
+63 silly mapToRegistry name node-bin-setup
+64 silly mapToRegistry using default registry
+65 silly mapToRegistry registry https://registry.npmjs.org/
+66 silly mapToRegistry data Result {
+66 silly mapToRegistry   raw: 'node-bin-setup',
+66 silly mapToRegistry   scope: null,
+66 silly mapToRegistry   escapedName: 'node-bin-setup',
+66 silly mapToRegistry   name: 'node-bin-setup',
+66 silly mapToRegistry   rawSpec: '',
+66 silly mapToRegistry   spec: 'latest',
+66 silly mapToRegistry   type: 'tag' }
+67 silly mapToRegistry uri https://registry.npmjs.org/node-bin-setup
+68 verbose addNameRange registry:https://registry.npmjs.org/node-bin-setup not in flight; fetching
+69 verbose get https://registry.npmjs.org/node-bin-setup not expired, no request
+70 silly addNameRange number 2 { name: 'node-bin-setup',
+70 silly addNameRange   range: '>=1.0.0 <2.0.0',
+70 silly addNameRange   hasData: true }
+71 silly addNameRange versions [ 'node-bin-setup',
+71 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4', '1.0.6' ] ]
+72 silly pickManifestFromRegistryMetadata spec >=1.0.0 <2.0.0 tag latest versions [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4', '1.0.6' ]
+73 silly addNamed node-bin-setup@latest
+74 verbose addNamed "latest" is being treated as a dist-tag for node-bin-setup
+75 info addNameTag [ 'node-bin-setup', 'latest' ]
+76 silly mapToRegistry name node-bin-setup
+77 silly mapToRegistry using default registry
+78 silly mapToRegistry registry https://registry.npmjs.org/
+79 silly mapToRegistry data Result {
+79 silly mapToRegistry   raw: 'node-bin-setup',
+79 silly mapToRegistry   scope: null,
+79 silly mapToRegistry   escapedName: 'node-bin-setup',
+79 silly mapToRegistry   name: 'node-bin-setup',
+79 silly mapToRegistry   rawSpec: '',
+79 silly mapToRegistry   spec: 'latest',
+79 silly mapToRegistry   type: 'tag' }
+80 silly mapToRegistry uri https://registry.npmjs.org/node-bin-setup
+81 verbose addNameTag registry:https://registry.npmjs.org/node-bin-setup already in flight; waiting
+82 silly addNameTag next cb for node-bin-setup with tag latest
+83 silly addNamed node-bin-setup@1.0.6
+84 verbose addNamed "1.0.6" is a plain semver version for node-bin-setup
+85 silly cache afterAdd node-bin-setup@1.0.6
+86 verbose afterAdd /home/doyle/.npm/node-bin-setup/1.0.6/package/package.json not in flight; writing
+87 verbose correctMkdir /home/doyle/.npm correctMkdir not in flight; initializing
+88 verbose afterAdd /home/doyle/.npm/node-bin-setup/1.0.6/package/package.json written
+89 silly loadAllDepsIntoIdealTree Finishing
+90 silly loadIdealTree Finishing
+91 silly currentTree lib
+92 silly idealTree lib
+92 silly idealTree └─┬ node@11.0.0
+92 silly idealTree   └── node-bin-setup@1.0.6
+93 silly generateActionsToTake Starting
+94 silly install generateActionsToTake
+95 silly generateActionsToTake Finishing
+96 silly diffTrees action count 2
+97 silly diffTrees add node-bin-setup@1.0.6
+98 silly diffTrees add node@11.0.0
+99 silly decomposeActions action count 16
+100 silly decomposeActions fetch node-bin-setup@1.0.6
+101 silly decomposeActions extract node-bin-setup@1.0.6
+102 silly decomposeActions test node-bin-setup@1.0.6
+103 silly decomposeActions preinstall node-bin-setup@1.0.6
+104 silly decomposeActions build node-bin-setup@1.0.6
+105 silly decomposeActions install node-bin-setup@1.0.6
+106 silly decomposeActions postinstall node-bin-setup@1.0.6
+107 silly decomposeActions finalize node-bin-setup@1.0.6
+108 silly decomposeActions fetch node@11.0.0
+109 silly decomposeActions extract node@11.0.0
+110 silly decomposeActions test node@11.0.0
+111 silly decomposeActions preinstall node@11.0.0
+112 silly decomposeActions build node@11.0.0
+113 silly decomposeActions install node@11.0.0
+114 silly decomposeActions postinstall node@11.0.0
+115 silly decomposeActions finalize node@11.0.0
+116 silly runTopLevelLifecycles Starting
+117 silly executeActions Starting
+118 silly install executeActions
+119 silly doSerial global-install 0
+120 silly doParallel fetch 2
+121 verbose correctMkdir /home/doyle/.npm/_locks correctMkdir not in flight; initializing
+122 verbose lock using /home/doyle/.npm/_locks/staging-a072192f34a17023.lock for /usr/lib/node_modules/.staging
+123 silly doParallel extract 2
+124 silly extract node-bin-setup@1.0.6
+125 silly extract node@11.0.0
+126 verbose unbuild lib/node_modules/.staging/node-bin-setup-7c9263ab
+127 verbose unbuild lib/node_modules/.staging/node-0e150652
+128 silly gentlyRm /usr/lib/node_modules/.staging/node-bin-setup-7c9263ab is being purged from base /usr
+129 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/.staging/node-bin-setup-7c9263ab
+130 verbose tar unpack /home/doyle/.npm/node-bin-setup/1.0.6/package.tgz
+131 verbose tar unpacking to /usr/lib/node_modules/.staging/node-bin-setup-7c9263ab
+132 silly gentlyRm /usr/lib/node_modules/.staging/node-bin-setup-7c9263ab is being purged
+133 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/.staging/node-bin-setup-7c9263ab
+134 silly gunzTarPerm modes [ '755', '644' ]
+135 silly gentlyRm /usr/lib/node_modules/.staging/node-0e150652 is being purged from base /usr
+136 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/.staging/node-0e150652
+137 verbose tar unpack /home/doyle/.npm/node/11.0.0/package.tgz
+138 verbose tar unpacking to /usr/lib/node_modules/.staging/node-0e150652
+139 silly gentlyRm /usr/lib/node_modules/.staging/node-0e150652 is being purged
+140 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/.staging/node-0e150652
+141 silly gunzTarPerm modes [ '755', '644' ]
+142 silly gunzTarPerm extractEntry package.json
+143 silly gunzTarPerm extractEntry package.json
+144 silly gunzTarPerm extractEntry index.js
+145 silly gunzTarPerm extractEntry installArchSpecificPackage.js
+146 silly gunzTarPerm extractEntry README.md
+147 silly gentlyRm /usr/lib/node_modules/.staging/node-bin-setup-7c9263ab/node_modules is being purged
+148 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/.staging/node-bin-setup-7c9263ab/node_modules
+149 silly gentlyRm /usr/lib/node_modules/.staging/node-0e150652/node_modules is being purged
+150 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/.staging/node-0e150652/node_modules
+151 silly doParallel preinstall 2
+152 silly preinstall node-bin-setup@1.0.6
+153 info lifecycle node-bin-setup@1.0.6~preinstall: node-bin-setup@1.0.6
+154 silly preinstall node@11.0.0
+155 info lifecycle node@11.0.0~preinstall: node@11.0.0
+156 silly lifecycle node-bin-setup@1.0.6~preinstall: no script for preinstall, continuing
+157 warn lifecycle node@11.0.0~preinstall: cannot run in wd %s %s (wd=%s) node@11.0.0 node installArchSpecificPackage /usr/lib/node_modules/.staging/node-0e150652
+158 silly doReverseSerial remove 0
+159 silly doSerial move 0
+160 silly doSerial finalize 2
+161 silly finalize /usr/lib/node_modules/node/node_modules/node-bin-setup
+162 silly finalize /usr/lib/node_modules/node
+163 silly doSerial build 2
+164 silly build node-bin-setup@1.0.6
+165 info linkStuff node-bin-setup@1.0.6
+166 silly linkStuff node-bin-setup@1.0.6 has /usr/lib/node_modules/node/node_modules as its parent node_modules
+167 silly linkStuff node-bin-setup@1.0.6 is part of a global install
+168 silly linkStuff node-bin-setup@1.0.6 is installed into a global node_modules
+169 verbose linkBins node-bin-setup@1.0.6
+170 verbose linkMans node-bin-setup@1.0.6
+171 silly build node@11.0.0
+172 info linkStuff node@11.0.0
+173 silly linkStuff node@11.0.0 has /usr/lib/node_modules as its parent node_modules
+174 silly linkStuff node@11.0.0 is part of a global install
+175 silly linkStuff node@11.0.0 is installed into a global node_modules
+176 silly linkStuff node@11.0.0 is installed into the top-level global node_modules
+177 verbose linkBins node@11.0.0
+178 verbose linkBins [ { node: 'bin/node' }, '/usr/bin', true ]
+179 verbose linkMans node@11.0.0
+180 verbose unlock done using /home/doyle/.npm/_locks/staging-a072192f34a17023.lock for /usr/lib/node_modules/.staging
+181 silly rollbackFailedOptional Starting
+182 silly gentlyRm /usr/lib/node_modules/node/node_modules/node-bin-setup is being purged from base /usr/lib
+183 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/node/node_modules/node-bin-setup
+184 silly gentlyRm /usr/lib/node_modules/node/node_modules/node-bin-setup is being purged from base /usr/lib
+185 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/node/node_modules/node-bin-setup
+186 silly gentlyRm /usr/lib/node_modules/node/node_modules/node-bin-setup is being purged from base /usr/lib
+187 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/node/node_modules/node-bin-setup
+188 silly gentlyRm /usr/lib/node_modules/node/node_modules/node-bin-setup is being purged from base /usr/lib
+189 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/node/node_modules/node-bin-setup
+190 silly gentlyRm /usr/lib/node_modules/node/node_modules/node-bin-setup is being purged from base /usr/lib
+191 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/node/node_modules/node-bin-setup
+192 silly gentlyRm /usr/lib/node_modules/node/node_modules/node-bin-setup is being purged from base /usr/lib
+193 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/node/node_modules/node-bin-setup
+194 silly gentlyRm /usr/lib/node_modules/node/node_modules/node-bin-setup is being purged from base /usr/lib
+195 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/node/node_modules/node-bin-setup
+196 silly gentlyRm /usr/lib/node_modules/node/node_modules/node-bin-setup is being purged from base /usr/lib
+197 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/node/node_modules/node-bin-setup
+198 silly gentlyRm /usr/lib/node_modules/node is being purged from base /usr/lib
+199 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/node
+200 silly gentlyRm /usr/lib/node_modules/node is being purged from base /usr/lib
+201 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/node
+202 silly gentlyRm /usr/lib/node_modules/node is being purged from base /usr/lib
+203 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/node
+204 silly gentlyRm /usr/lib/node_modules/node is being purged from base /usr/lib
+205 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/node
+206 silly gentlyRm /usr/lib/node_modules/node is being purged from base /usr/lib
+207 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/node
+208 silly gentlyRm /usr/lib/node_modules/node is being purged from base /usr/lib
+209 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/node
+210 silly gentlyRm /usr/lib/node_modules/node is being purged from base /usr/lib
+211 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/node
+212 silly gentlyRm /usr/lib/node_modules/node is being purged from base /usr/lib
+213 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/node
+214 silly vacuum-fs purging /usr/lib/node_modules/node/node_modules/node-bin-setup
+215 silly vacuum-fs purging /usr/lib/node_modules/node/node_modules/node-bin-setup
+216 silly vacuum-fs purging /usr/lib/node_modules/node/node_modules/node-bin-setup
+217 silly vacuum-fs purging /usr/lib/node_modules/node/node_modules/node-bin-setup
+218 silly vacuum-fs purging /usr/lib/node_modules/node/node_modules/node-bin-setup
+219 silly vacuum-fs purging /usr/lib/node_modules/node/node_modules/node-bin-setup
+220 silly vacuum-fs purging /usr/lib/node_modules/node/node_modules/node-bin-setup
+221 silly vacuum-fs purging /usr/lib/node_modules/node/node_modules/node-bin-setup
+222 silly vacuum-fs purging /usr/lib/node_modules/node
+223 silly vacuum-fs purging /usr/lib/node_modules/node
+224 silly vacuum-fs purging /usr/lib/node_modules/node
+225 silly vacuum-fs purging /usr/lib/node_modules/node
+226 silly vacuum-fs purging /usr/lib/node_modules/node
+227 silly vacuum-fs purging /usr/lib/node_modules/node
+228 silly vacuum-fs purging /usr/lib/node_modules/node
+229 silly vacuum-fs purging /usr/lib/node_modules/node
+230 silly vacuum-fs removing /usr/lib/node_modules/node/node_modules
+231 silly vacuum-fs removing /usr/lib/node_modules/node/node_modules
+232 silly vacuum-fs removing /usr/lib/node_modules/node/node_modules
+233 silly vacuum-fs removing /usr/lib/node_modules/node/node_modules
+234 silly vacuum-fs removing /usr/lib/node_modules/node/node_modules
+235 silly vacuum-fs removing /usr/lib/node_modules/node/node_modules
+236 silly vacuum-fs removing /usr/lib/node_modules/node/node_modules
+237 silly vacuum-fs removing /usr/lib/node_modules/node/node_modules
+238 silly vacuum-fs quitting because other entries in /usr/lib/node_modules
+239 silly vacuum-fs quitting because other entries in /usr/lib/node_modules
+240 silly vacuum-fs quitting because other entries in /usr/lib/node_modules
+241 silly vacuum-fs quitting because other entries in /usr/lib/node_modules
+242 silly vacuum-fs quitting because other entries in /usr/lib/node_modules
+243 silly vacuum-fs quitting because other entries in /usr/lib/node_modules
+244 silly vacuum-fs quitting because other entries in /usr/lib/node_modules
+245 silly vacuum-fs quitting because other entries in /usr/lib/node_modules
+246 silly rollbackFailedOptional Finishing
+247 silly runTopLevelLifecycles Finishing
+248 silly install printInstalled
+249 verbose stack Error: ENOENT: no such file or directory, chmod '/usr/lib/node_modules/node/bin/node'
+250 verbose cwd /home/doyle/Craft
+251 error Linux 4.8.0-59-generic
+252 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "node"
+253 error node v7.7.1
+254 error npm  v4.1.2
+255 error path /usr/lib/node_modules/node/bin/node
+256 error code ENOENT
+257 error errno -2
+258 error syscall chmod
+259 error enoent ENOENT: no such file or directory, chmod '/usr/lib/node_modules/node/bin/node'
+260 error enoent ENOENT: no such file or directory, chmod '/usr/lib/node_modules/node/bin/node'
+260 error enoent This is most likely not a problem with npm itself
+260 error enoent and is related to npm not being able to find a file.
+261 verbose exit [ -2, true ]
